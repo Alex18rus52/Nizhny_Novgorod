@@ -1,0 +1,118 @@
+body{
+    background: black;
+}
+@font-face{
+    font-family: Bree Cyrillic Variable;
+    src:url(../fonts/Bree\ CYR\ var\ Regular.ttf)
+}
+@font-face{
+    font-family: "Bree Cyrillic Variable";
+    src: url(../fonts/Bree\ CYR\ var\ Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo{
+        background: url("../img/logo.jpg");
+        background-size: cover;
+        border-radius: 40px;
+        height: auto;
+        width: 20%;
+        aspect-ratio: 2/1;
+        box-shadow: inset 5px 5px 6px #fd8700;
+    }
+    .nav{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        font-size: calc(0.5em + 1vw);
+        color: #dcdcdc;
+        flex-grow: 1;
+    }
+    .nav-item{
+        box-sizing: border-box;
+        padding: 10px;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .nav-item:hover{
+        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+    }
+
+    .bg-line{
+        background: url("../img/ShirokiyNiznhy.jpg");
+        background-size: cover;
+        width:100%;
+        height: auto;
+        aspect-ratio: 3/1;
+        margin: 25px 0;
+    }
+    .head{
+        font-family: "Bree Cyrillic Variable";
+        font-size: calc(1.5rem + 5vw);
+        letter-spacing: 2rem;
+        color: white;
+        text-align: center;
+    }
+    .line{
+        font-family: "Bree Cyrillic Variable";
+        display: flex;
+        margin: 25px auto;
+        width: 80vw;
+    }
+    .img1{
+        object-fit: scale-down;
+        flex: 1 1 50%;
+    }
+    .text1{
+        color: white;
+        font-size: calc(0.5em + 1vw);
+        margin: 0px 10px 10px 20px;
+        flex: 1 1 50%;
+    }
+    .img2{
+        object-fit: scale-down;
+        flex: 1 1 50%;
+    }
+.img2 img, .img1 img{
+        width: 100%;
+        height: auto;
+}
+.text2{
+        color: white;
+        font-size: calc(0.5em + 1vw);
+        margin: 0px 10px 10px 20px;
+        flex: 1 1 50%;
+}
+footer{
+    color: #fff0f5;
+    display: flex;
+    width: 100%;
+    background-color: #333333;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.footer-nav-item{
+    font-size: calc(0.2em + 1vw);
+}
+.icons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    font-family: "Bree Cyrillic Variable";
+}
